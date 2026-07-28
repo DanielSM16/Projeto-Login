@@ -70,6 +70,20 @@
         font-size: 0.8em;
     }
 
+    form > div.camp {
+        background-color: #5f2c82;
+        display: block;
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        margin: 5px 0px;
+
+    }
+
+    div.campo > label {
+        display: none;
+    }
+
     #person {
         font-size: 20px;
     }
@@ -78,6 +92,40 @@
     }
 
 
+    form > input[type=submit] {
+        display: block;
+        font-size: 1em;
+        width: 100%;
+        height: 40px;
+        background-color: #49a09d;
+        color: white;
+        border: none;
+        border-radius: 5px;
+
+    }
+
+    form > input[type=submit]:hover {
+        background-color: rgba(128, 255, 0, 0.241);
+    }
+
+    form > a.botao {
+        display: block;
+        text-align: center;
+        font-size: 1em;
+        width: 100%;
+        height: 40px;
+        padding-top: 5px;
+        margin-top: 5px;
+        background-color: white;
+        color: rgba(128, 255, 0, 0.172);
+        border: 1px solid #49a09d;
+        border-radius: 7px;
+        text-decoration: none;
+    }
+
+    form > a.botao:hover {
+          background-color: rgba(0, 255, 191, 0.679);
+    }
 
 
 
