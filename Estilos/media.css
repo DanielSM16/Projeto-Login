@@ -18,6 +18,7 @@
 
         section#login {
             width: 80vw;
+            height: 280px;
         }
 
         #login > #imagem {
@@ -36,6 +37,7 @@
         #pin{
             font-size: 25px;
         }
+
     }
 
     @media screen and (min-width: 992px) {
@@ -46,6 +48,7 @@
 
         #login {
             width: 950px;
+            height: 350px;
         }
 
         #login > #imagem {
